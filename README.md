@@ -3,7 +3,7 @@
 #### 介绍
 一个typecho主题，简约风格
 
-修改文件夹名为concise_orange
+克隆到本地，上传concise_orange文件夹到/usr/themes下
 
 #### 演示
 
