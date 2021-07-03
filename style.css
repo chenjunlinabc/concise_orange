@@ -98,9 +98,6 @@ main{
     transition: transform .5s ease-out;
     z-index: 999;
 }
-.post:hover {
-    
-}
 .post,.post-mains{
     margin-right: 20px;
     margin-bottom: 20px;
