@@ -133,6 +133,9 @@ main{
 .aside-control{
     width: 70%;
 }
+.post-nav {
+    display: flex;
+}
 
 .form-control:focus,.textarea:focus,.form-info input:focus,input:focus{
     outline: none;
