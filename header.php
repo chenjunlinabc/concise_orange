@@ -21,7 +21,7 @@
 </head>
 <body class="body" id="body">
 <a id="add"></a>
-<header id="header">
+<header id="header" class="header">
     <div id="nav" class="container">
         <div class="logo-main">
                 <h3 id="logo">
