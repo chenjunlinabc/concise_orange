@@ -106,7 +106,7 @@ main{
     background-color: #fff;
 }
 .post,.post-mains,.aside,.header{
-    box-shadow: 0 15px 35px rgb(50 50 93 / 5%), 0 5px 15px rgb(0 0 0 / 5%);
+    box-shadow: 0 15px 35px rgb(50 50 93 / 5%), 0 5px 15px rgb(0 0 0 / 3%);
 }
 #aside{
     margin-left: 72%;
