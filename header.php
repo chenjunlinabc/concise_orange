@@ -17,7 +17,7 @@
     <meta name="description" content="Typecho 1.1/17.10.30">
     <link rel="stylesheet" href="<?php $this->options->themeUrl('style.css'); ?>">
     <script charset="utf-8" src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
-
+    <script charset="utf-8" src="https://cdn.jsdelivr.net/npm/jquery-pjax@2.0.1/jquery.pjax.min.js"></script>
 </head>
 <body class="body" id="body">
 <a id="add"></a>
