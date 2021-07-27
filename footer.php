@@ -16,7 +16,7 @@
 </div>
 <script>
     $(document).pjax('a', '#body', {
-        fragment:'#body', timeout:1000
+        fragment:'#body', timeout:3000
     }); 
     $(document).on('pjax:send', function() { 
         $(".pjax_main").css("display", "block");
