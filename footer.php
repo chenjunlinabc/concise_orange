@@ -36,7 +36,7 @@
 		timeout: 8000
 	})
 	$(document).on('pjax:start', function () { 
-		
+		$(".nav-menu").css("display","none");
 
 	});
 
