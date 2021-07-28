@@ -16,19 +16,35 @@
 </div>
 
 
-<script>
-        $(document).pjax('a[href^="<?php Helper::options()->siteUrl()?>"]:not(a[target="_blank"], a[no-pjax])','.ajaxdata', {
-            fragment: '.ajaxdata',
-            timeout: 8000
-        }).on('pjax:send', function() { 
-            // $(".pjax_main").css("display", "block");
-            // ajax触发时显示遮罩层
-        }).on('pjax:complete', function() { 
-            // $(".pjax_main").css("display", "none");
-            // ajax加载完毕结束遮罩层
-        });
-    </script>
 
+
+<script>
+    function getBaseUrl() {
+		let ishttps = 'https:' == document.location.protocol ? true : false;
+		let url = window.location.host;
+		if (ishttps) {
+			url = 'https://' + url;
+		} else {
+			url = 'http://' + url;
+		}
+		return url;
+	}
+	let url = '"' + getBaseUrl() + '"';
+	$(document).pjax('a[href^=' + url + ']:not(a[target="_blank"], a[no-pjax])', {
+		container: '.ajaxdata',
+		fragment: '.ajaxdata',
+		timeout: 8000
+	})
+	$(document).on('pjax:start', function () { 
+		
+
+	});
+
+	$(document).on('pjax:end', function () { 
+
+	
+	});
+</script>
 
 
 <script charset="utf-8" src="<?php $this->options->themeUrl('main.js'); ?>"></script>
