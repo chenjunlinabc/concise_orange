@@ -12,7 +12,7 @@
 if (!defined('__TYPECHO_ROOT_DIR__')) exit;
 $this->need('header.php');
 ?>
-<main>
+<main class="main ajaxdata">
     <div class="container">
 	    <article id="article" class="article">
             <?php if ($this->have()): ?> <!-- 判断是否有文章，有则输出，无则提示 -->
