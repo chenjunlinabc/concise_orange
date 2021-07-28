@@ -7,7 +7,7 @@
 
 if(!defined('__TYPECHO_ROOT_DIR__')) exit; ?>
 <?php $this -> need('header.php');?>
-<main>
+<main class="ajaxdata">
     <article id="post-content" class="container">
         <div class="post-content-main">
             <div class="post-mains"><a href="<?php $this->options->siteUrl(); ?>">首页</a> &raquo; <?php $this->archiveTitle(array(
