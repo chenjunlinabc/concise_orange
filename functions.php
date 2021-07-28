@@ -90,7 +90,7 @@ function getHotComments($limit = 10){
             $val = Typecho_Widget::widget('Widget_Abstract_Contents')->push($val);
             $post_title = htmlspecialchars($val['title']);
             $permalink = $val['permalink'];
-            echo '<li><a href="'.$permalink.'" title="'.$post_title.'" target="_blank">'.$post_title.'</a></li>';        
+            echo '<li><a href="'.$permalink.'" title="'.$post_title.'">'.$post_title.'</a></li>';        
         }
     }
 }
