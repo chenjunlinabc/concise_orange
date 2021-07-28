@@ -14,19 +14,20 @@
 
 <div style="display:none; z-index:999; background-color: #ccc; position:fixed; top:0px; width:100%; height:100vh;" class="pjax_main">
 </div>
+
+
 <script>
-    $(document).pjax('a[href^="<?php Helper::options()->siteUrl()?>"]:not(a[target="_blank"], a[no-pjax])',{
-        fragment:'#body', timeout: 10000
-    }); 
-    $(document).on('pjax:send', function() { 
-        $(".pjax_main").css("display", "block");
-        // ajax触发时显示遮罩层
-    });
-    $(document).on('pjax:complete', function() { 
-        $(".pjax_main").css("display", "none");
-        // ajax加载完毕结束遮罩层
-    });
-</script>
+        $(document).pjax('a[href^="<?php Helper::options()->siteUrl()?>"]:not(a[target="_blank"], a[no-pjax])','.ajaxdata', {
+            fragment: '.ajaxdata',
+            timeout: 8000
+        }).on('pjax:send', function() { 
+            // $(".pjax_main").css("display", "block");
+            // ajax触发时显示遮罩层
+        }).on('pjax:complete', function() { 
+            // $(".pjax_main").css("display", "none");
+            // ajax加载完毕结束遮罩层
+        });
+    </script>
 
 
 
