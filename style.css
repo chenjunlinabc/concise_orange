@@ -525,7 +525,7 @@ pre{
     a, a:hover, a:link, a:visited, a:active{
         color: #fff;
     }
-    .form-control, .aside-control, code, .textarea{
+    .form-control, .aside-control, code, .textarea, .widget-list{
         background-color: #262626!important;
         color: #fff!important;
     }
