@@ -514,7 +514,26 @@ pre{
         display: inline-block!important;
     }
 }
-
+@media (prefers-color-scheme: dark) {
+    body{
+        background-color: #262626;
+    }
+    .post, .post-mains, .aside, .header, .pagination span{
+        background-color: #434343!important;
+        color: #fff!important;
+    }
+    a, a:hover, a:link, a:visited, a:active{
+        color: #fff;
+    }
+    .form-control, .aside-control, code, .textarea{
+        background-color: #262626!important;
+        color: #fff!important;
+    }
+    .post-headermeta *{
+        color: #ccc!important;
+    }
+}
+  
 
 
 
