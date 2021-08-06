@@ -47,6 +47,11 @@ if(!defined('__TYPECHO_ROOT_DIR__')) exit; ?>
                         <li><a href=" https://www.abcio.cn/" target="_blank" rel="noopener noreferrer">清墨的橘</a></li>
                         <li><a href="https://www.lx-blog.cn" target="_blank" rel="noopener noreferrer">流星Aday的博客</a></li>
                         <li><a href="https://hq233.cn/" target="_blank" rel="noopener noreferrer">隔壁小胡的博客</a></li>
+                        <li><a href="https://www.citrons.cn/" target="_blank" rel="noopener noreferrer">Citrons博客</a></li>
+                        <li><a href="https://www.rz.sb" target="_blank" rel="noopener noreferrer">若志随笔</a></li>
+                        <li><a href="https://www.m78.co/" target="_blank" rel="noopener noreferrer">星云馆</a></li>
+                        <li><a href="https://jsun969.cn" target="_blank" rel="noopener noreferrer">螓首蛾眉</a></li>
+                        <li><a href="https://flypig.xyz" target="_blank" rel="noopener noreferrer">阅读・阅己</a></li>
                     </ul>
                     
                 </div>

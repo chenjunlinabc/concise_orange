@@ -13,13 +13,29 @@
         ), '', ' - '); ?><?php $this->options->title(); ?>
     </title>
     <meta name="google" content="notranslate"/>
-    <meta name="keywords" content="typecho,php,blog">
+    <meta name="keywords" content="typecho,php,blog,www.chenjunlin.me,chenjunlin.me,https://chenjunlin.me,小陈的辣鸡屋,chenjunlin,教程,经验,技术,笔记,博客,个人博客,个人网站,个人日记,个人网站">
     <meta name="description" content="Typecho 1.1/17.10.30">
+    <link rel="Shortcut Icon" href="https://chenjunlin.me/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="<?php $this->options->themeUrl('style.css'); ?>">
     <script charset="utf-8" src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
-    <script charset="utf-8" src="https://cdn.jsdelivr.net/npm/jquery-pjax@2.0.1/jquery.pjax.min.js"></script>
+   
+    <!--百度统计-->
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?626bf8c65e4659fe458caf20874057d9";
+        var s = document.getElementsByTagName("script")[0]; 
+        s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+
 </head>
 <body class="body" id="body">
+    
+    <div style="display:none; z-index:999; background-color: #ccc; position:fixed; top:0px; width:100%; height:100vh;" class="pjax_main">
+    </div>
+
 <a id="add"></a>
 <header id="header" class="header">
     <div id="nav" class="container">

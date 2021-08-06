@@ -29,28 +29,7 @@
         <h3><?php _e("文章分类")?></h3>
         <?php $this->widget('Widget_Metas_Category_List')->listCategories('wrapClass=sidebar-class'); ?>
     </section>
-    <section class="sidebar-main">
-        <h3><?php _e("标签")?></h3>
-        <ul class="label-main">
-            <?php $this->widget('Widget_Metas_Tag_Cloud', 'ignoreZeroCount=1&limit=30')->to($tags); ?>
-            <?php if($tags->have()): ?>
-            <?php while($tags->next()): ?>
-            <li class="label-main">
-                <a href="<?php $tags->permalink(); ?>"><?php $tags->name(); ?>
-                </a>
-            </li>
-            <?php endwhile; ?>
-            <?php else: ?>
-            <li>暂无标签</li>
-            <?php endif; ?>
-        </ul>
-    </section>
-    <section class="sidebar-main">
-        <h3><?php _e("归档")?></h3>
-        <ul>
-            <?php $this->widget('Widget_Contents_Post_Date', 'type=month&format=Y年 m月')->parse('<li><a href="{permalink}">{date}</a></li>'); ?>
-        </ul>
-    </section>
+    
     <section class="sidebar-main">
         <h3><?php _e("友情链接")?></h3>
         <ul class="links">
@@ -65,13 +44,18 @@
             <li><a href="https://www.abcio.cn/" target="_blank" rel="noopener noreferrer">清墨的橘</a></li>
             <li><a href="https://www.lx-blog.cn" target="_blank" rel="noopener noreferrer">流星Aday的博客</a></li>
             <li><a href="https://hq233.cn/" target="_blank" rel="noopener noreferrer">隔壁小胡的博客</a></li>
+            <li><a href="https://www.citrons.cn/" target="_blank" rel="noopener noreferrer">Citrons博客</a></li>
+            <li><a href="https://www.rz.sb" target="_blank" rel="noopener noreferrer">若志随笔</a></li>
+            <li><a href="https://www.m78.co/" target="_blank" rel="noopener noreferrer">星云馆</a></li>
+            <li><a href="https://jsun969.cn" target="_blank" rel="noopener noreferrer">螓首蛾眉</a></li>
+            <li><a href="https://flypig.xyz" target="_blank" rel="noopener noreferrer">阅读・阅己</a></li>
         </ul>
     </section>
     <section class="sidebar-main">
         <h3><?php _e("其它")?></h3>
         <ul>
             <li>
-                <a href="<?php $this->options->siteUrl(); ?>sitemap.xml">网站地图</a>
+                <a href="<?php $this->options->siteUrl(); ?>sitemap.xml"><?php _e('网站地图'); ?></a>
             </li>
             <li>
                 <a href="<?php $this->options->feedUrl(); ?>"><?php _e('文章 RSS'); ?></a> 

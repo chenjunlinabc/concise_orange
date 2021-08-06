@@ -11,14 +11,16 @@
        </div>
     </div>
 </footer>
+    
+    
+    <script charset="utf-8" src="https://cdn.jsdelivr.net/npm/jquery-pjax@2.0.1/jquery.pjax.min.js"></script>
+    
+    
 
-<div style="display:none; z-index:999; background-color: #ccc; position:fixed; top:0px; width:100%; height:100vh;" class="pjax_main">
-</div>
 
-
-
-
+    <!--页面pjax-->
 <script>
+    
     function getBaseUrl() {
 		let ishttps = 'https:' == document.location.protocol ? true : false;
 		let url = window.location.host;
@@ -37,7 +39,7 @@
 	})
 	$(document).on('pjax:start', function () { 
 		$(".nav-menu").css("display","none");
-
+    
 	});
 
 	$(document).on('pjax:end', function () { 
@@ -45,9 +47,8 @@
 	
 	});
 </script>
-
-
-<script charset="utf-8" src="<?php $this->options->themeUrl('main.js'); ?>"></script>
+    
+    <script charset="utf-8" src="<?php $this->options->themeUrl('main.js'); ?>"></script>
 
 
 </body>

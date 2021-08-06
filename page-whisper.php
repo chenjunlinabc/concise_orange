@@ -22,7 +22,7 @@
             
            
         
-        <?php $this -> need('post-comments.php');?>
+            <?php $this -> need('post-comments.php');?>
             
         </div>
         <?php $this -> need('sidebar.php');?>

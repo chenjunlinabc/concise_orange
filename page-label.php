@@ -1,3 +1,14 @@
+
+
+
+
+<?php
+/**
+ * 标签
+ *
+ * @package custom
+ */
+?>
 <?php if(!defined('__TYPECHO_ROOT_DIR__')) exit; ?>
 <?php $this -> need('header.php');?>
 <main class="ajaxdata">
@@ -18,9 +29,20 @@
                 </h3>
                 <!--输出文章内容-->
                 <div class="post-article">
-                    <p class="article-main">
-                        <?php $this->content(); ?>
-                    </p>
+                    <ul class="label-main">
+                        <?php $this->widget('Widget_Metas_Tag_Cloud', 'ignoreZeroCount=1&limit=30')->to($tags); ?>
+                        <?php if($tags->have()): ?>
+                        <?php while($tags->next()): ?>
+                        <li class="label-main">
+                            <a href="<?php $tags->permalink(); ?>">
+                                <?php $tags->name(); ?>
+                            </a>
+                        </li>
+                        <?php endwhile; ?>
+                        <?php else: ?>
+                        <li>暂无标签</li>
+                        <?php endif; ?>
+                    </ul>
                 </div>
             </div>
             <?php $this->need('comments.php'); ?>

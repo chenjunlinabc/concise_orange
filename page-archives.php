@@ -25,6 +25,10 @@
                 </h3>
                 <!--输出文章内容-->
                 <div class="post-article">
+                    <div class="articles-data">
+                        <?php $this->widget('Widget_Contents_Post_Date', 'type=month&format=Y年 m月')->parse('<span><a href="{permalink}">{date}</a></span>'); ?>
+                    </div>
+                    
                     <p class="articles-main">
                         <?php
                             $this->widget('Widget_Contents_Post_Recent', 'pageSize=10000')->to($archives);
@@ -50,6 +54,7 @@
                                 echo $output;
                         ?>
                     </p>
+
                 </div>
                 
             </div>

@@ -66,7 +66,7 @@ main{
 }
 #header{
     border-radius: 10px;
-    background-color: #fff
+    background-color: #fff;
 }
 #logo a{
     font-size: 22px;
@@ -98,6 +98,7 @@ main{
     transition: transform .5s ease-out;
     z-index: 999;
 }
+
 .post,.post-mains{
     margin-right: 20px;
     margin-bottom: 20px;
@@ -132,11 +133,11 @@ main{
     background-color: #f4f6fb;
     display: table-cell;
 }
-.aside-control{
-    width: 70%;
-}
 .post-nav {
     display: flex;
+}
+.aside-control{
+    width: 70%;
 }
 
 .form-control:focus,.textarea:focus,.form-info input:focus,input:focus{
@@ -438,7 +439,7 @@ pre{
     display: none;
 }
 
-.post-data .links li{
+.post-data .links li, .articles-data span a{
     padding: 10px;
     background-color: #ccc;
     border-radius: 8px;

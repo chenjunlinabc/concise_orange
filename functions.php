@@ -75,6 +75,7 @@ function  art_count ($cid){
         }
         return $r;
     }
+    
 
 function getHotComments($limit = 10){
     $db = Typecho_Db::get();
@@ -94,6 +95,11 @@ function getHotComments($limit = 10){
         }
     }
 }
+
+
+
+
+
 
 
 
