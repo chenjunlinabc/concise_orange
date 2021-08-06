@@ -279,7 +279,6 @@ pre{
     color: #fff;
 }
 .post-article p a{
-    color: #2440b3!important;
     text-decoration: underline!important;
 }
 .post-meta li{
@@ -514,6 +513,7 @@ pre{
         display: inline-block!important;
     }
 }
+
 @media (prefers-color-scheme: dark) {
     body{
         background-color: #262626;
@@ -525,15 +525,14 @@ pre{
     a, a:hover, a:link, a:visited, a:active{
         color: #fff;
     }
-    .form-control, .aside-control, code, .textarea, .widget-list{
+    .form-control, .aside-control, code, .textarea, .widget-list, .comments-main{
         background-color: #262626!important;
         color: #fff!important;
     }
-    .post-headermeta *{
+    .post-headermeta *, .post-article p a{
         color: #ccc!important;
     }
 }
-  
 
 
 
