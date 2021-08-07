@@ -18,6 +18,26 @@
             'author'    =>  _t('作者 %s 发布的文章')
             ), '', ''); ?></div>
            <div class="post-mains">
+               <h3 class="post-title">
+                    <?php _e("标签云")?>
+                </h3>
+                <!--输出文章内容-->
+                <div class="post-article">
+                    <ul class="label-main">
+                        <?php $this->widget('Widget_Metas_Tag_Cloud', 'ignoreZeroCount=1&limit=30')->to($tags); ?>
+                        <?php if($tags->have()): ?>
+                        <?php while($tags->next()): ?>
+                        <li class="label-main">
+                            <a href="<?php $tags->permalink(); ?>">
+                                <?php $tags->name(); ?>
+                            </a>
+                        </li>
+                        <?php endwhile; ?>
+                        <?php else: ?>
+                        <li>暂无标签</li>
+                        <?php endif; ?>
+                    </ul>
+                </div>
                 <h3 class="post-title">
                      <a href="<?php $this->permalink() ?>">
                          <?php $this->title() ?>
@@ -25,10 +45,9 @@
                 </h3>
                 <!--输出文章内容-->
                 <div class="post-article">
-                    <div class="articles-data">
-                        <?php $this->widget('Widget_Contents_Post_Date', 'type=month&format=Y年 m月')->parse('<span><a href="{permalink}">{date}</a></span>'); ?>
-                    </div>
-                    
+                    <ul class="articles-data">
+                        <?php $this->widget('Widget_Contents_Post_Date', 'type=month&format=Y年 m月')->parse('<li><a href="{permalink}">{date}</a></li>'); ?>
+                    </ul>
                     <p class="articles-main">
                         <?php
                             $this->widget('Widget_Contents_Post_Recent', 'pageSize=10000')->to($archives);

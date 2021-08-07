@@ -65,7 +65,7 @@ main{
     overflow: auto;
 }
 #header{
-    border-radius: 10px;
+    border-radius: 0 0 10px 10px;
     background-color: #fff;
 }
 #logo a{
@@ -438,7 +438,7 @@ pre{
     display: none;
 }
 
-.post-data .links li, .articles-data span a{
+.post-data .links li, .articles-data li{
     padding: 10px;
     background-color: #ccc;
     border-radius: 8px;
@@ -448,7 +448,12 @@ pre{
     display: none;
     z-index: 100;
 }
-
+.articles-data li{
+    display: inline-block;
+}
+.articles-data{
+    margin-top: 30px;
+}
 
 
 
@@ -525,13 +530,14 @@ pre{
     a, a:hover, a:link, a:visited, a:active{
         color: #fff;
     }
-    .form-control, .aside-control, code, .textarea, .widget-list, .comments-main{
+    .form-control, .aside-control, code, .textarea, .widget-list, .comments-main, .articles-data li, .post-data .links li{
         background-color: #262626!important;
         color: #fff!important;
     }
     .post-headermeta *, .post-article p a{
         color: #ccc!important;
     }
+    
 }
 
 
