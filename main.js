@@ -1,6 +1,16 @@
 $(document).ready(function (){
     /* 页面dom加载完毕执行 */
     
+    
+    /* 监听visibilitychange事件，当页面可见或者被隐藏时触发，修改title */
+    const title = document.title;
+    document.addEventListener("visibilitychange", function(){
+        document.title = document.hidden ? "(°∀°)ﾉ 站点已被黑客入侵" : title;
+    });
+    
+    
+
+    /*
     $(".post").click(function(){
         $(this).css("background-color","#fafafa");
         $(this).css("color","#6f9fc7");
@@ -15,6 +25,7 @@ $(document).ready(function (){
         $(this).css("background-color","#fff");
         $(this).css("color","#000");
     });
+    */
     
 });
 
@@ -44,7 +55,7 @@ $(".classify").click(function(){
 
 /* 判断其是否点击了除该元素之外的元素，是的就隐藏该元素 */
 $(document).bind("click", function(a) {
-    var focus_widget = $(a.target);
+    let focus_widget = $(a.target);
     if (focus_widget.closest(".classify").length == 0) {
         $(".widget-list").css("display","none");
     }
@@ -87,18 +98,18 @@ $("window").resize(function(){
 
 
 /* 监听网络变化 */
-const appnet = navigator.onLine;
-if(appnet){
     window.addEventListener("offline",function(){
         console.log("当前网络已经离线");
         alert("当前网络已经离线");
     })
-}else{
     window.addEventListener("online",function(){
         console.log("当前恢复网络正常");
         alert("当前恢复网络正常");
     })
-}
+
+
+
+
 
 
 

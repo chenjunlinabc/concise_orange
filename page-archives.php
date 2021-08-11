@@ -24,7 +24,7 @@
                 <!--输出文章内容-->
                 <div class="post-article">
                     <ul class="label-main">
-                        <?php $this->widget('Widget_Metas_Tag_Cloud', 'ignoreZeroCount=1&limit=30')->to($tags); ?>
+                        <?php $this->widget('Widget_Metas_Tag_Cloud', 'ignoreZeroCount=1&limit=999')->to($tags); ?>
                         <?php if($tags->have()): ?>
                         <?php while($tags->next()): ?>
                         <li class="label-main">

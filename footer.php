@@ -43,8 +43,7 @@
 	});
 
 	$(document).on('pjax:end', function () { 
-
-	
+	    
 	});
 </script>
     

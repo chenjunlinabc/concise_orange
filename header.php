@@ -13,8 +13,8 @@
         ), '', ' - '); ?><?php $this->options->title(); ?>
     </title>
     <meta name="google" content="notranslate"/>
-    <meta name="keywords" content="typecho,php,blog,www.chenjunlin.me,chenjunlin.me,https://chenjunlin.me,小陈的辣鸡屋,chenjunlin,教程,经验,技术,笔记,博客,个人博客,个人网站,个人日记,个人网站">
-    <meta name="description" content="Typecho 1.1/17.10.30">
+    <meta name="keywords" content="typecho,php,blog,chenjunlin,chenjunlin.me,小陈的辣鸡屋,小陈,陈俊霖">
+    <meta name="description" content="小陈的辣鸡屋chenjunlin.me">
     <link rel="Shortcut Icon" href="https://chenjunlin.me/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="<?php $this->options->themeUrl('style.css'); ?>">
     <script charset="utf-8" src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
@@ -28,6 +28,15 @@
         var s = document.getElementsByTagName("script")[0]; 
         s.parentNode.insertBefore(hm, s);
         })();
+    </script>
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RYV15F0XZV"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-RYV15F0XZV');
     </script>
 
 </head>
