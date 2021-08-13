@@ -53,11 +53,13 @@
         <?php $comments->content(); ?> <!--评论内容-->
     </div>
     
-    <?php if ($comments->children) { ?>
-        <div class="comment-children">
-            <?php $comments->threadedComments($options); ?>
-        </div>
-    <?php } ?>
+    <div class="comment-children">
+        <?php if ($comments->children) { ?>
+            <div class="comment-children-main">
+                <?php $comments->threadedComments($options); ?>
+            </div>
+        <?php } ?>
+    </div>
 </li>
 <?php } ?>
 

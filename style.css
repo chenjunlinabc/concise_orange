@@ -227,23 +227,23 @@ main{
     color: #666;
     font-size: 0.6em;
 }
-.post-bottom{
+.post-bottom,.page-navigator{
     overflow: auto;
     text-align: center;
     margin-right: 20px;
 }
-.pagination{
+.pagination,.page-navigator{
     margin: 0 auto;
     overflow: auto;
     padding: 6px;
     border-radius: 10px;
     display: inline-block;
 }
-.pagination a,.pagination span span{
+.pagination a,.pagination span span,.page-navigator li a{
     text-align: center;
     line-height: 26px;
 }
-.pagination span{
+.pagination span,.page-navigator li{
     float: left;
     margin-right: 6px;
     border-radius: 6px;
@@ -251,13 +251,13 @@ main{
     width: 26px;
     height: 26px;
 }
-.page-prev,.page-next{
+.page-prev,.page-next,.next,.prev{
     width: 50px!important;
 }
-.page-item{
+.page-item,.current{
     background-color: #4e6ef2!important;
 }
-.page-item a{
+.page-item a,.current a{
     color: #fff;
 }
 .widget-list{
@@ -481,7 +481,9 @@ pre{
 .articles-data{
     margin-top: 30px;
 }
-
+.page-navigator{
+    margin-top: 100px;
+}
 
 
 /*媒体查询*/
@@ -540,19 +542,19 @@ pre{
 }
 
 @media screen and (max-width:391px){
-     .pagination span{
+     .pagination span,.page-navigator li{
         display: none;
     }
-    .page-prev,.page-next{
+    .page-prev,.page-next,.next,.prev{
         display: inline-block!important;
     }
 }
 
 @media (prefers-color-scheme: dark) {
-    body{
+    body,.page-navigator li{
         background-color: #262626;
     }
-    .post-bottom .pagination .page-item{
+    .post-bottom .pagination .page-item,.page-navigator .current{
         background-color: #4e6ef2!important;
     }
     .post, .post-mains, .aside, .header, .pagination span{

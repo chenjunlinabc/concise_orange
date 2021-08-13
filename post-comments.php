@@ -99,7 +99,9 @@
             <?php $this->comments()->to($comments); ?>
             <?php if ($comments->have()): ?>
             <?php $comments->listComments(); ?>
-            <?php $comments->pageNav('&laquo; 前一页', '后一页 &raquo;'); ?>
+            <div class="post-bottom">
+                <?php $comments->pageNav('上一页', '下一页'); ?>
+            </div>
             <?php endif; ?>
         </div>
      
