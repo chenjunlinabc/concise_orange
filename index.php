@@ -1,12 +1,12 @@
 <?php
 
 /**
- * 这是typecho系统的一套主题。你可以在<a href="https://chenjunlin.me">小陈的辣鸡屋</a>获得更多关于此的信息
+ * 这是typecho系统的一套主题。你可以在<a href="https://cjlio.com">小陈的辣鸡屋</a>获得更多关于此的信息
  * 
  * @package concise_orange
  * @author chenjunlin
  * @version 0.0.1
- * @link https://chenjunlin.me
+ * @link https://cjlio.com
  */
 
 if (!defined('__TYPECHO_ROOT_DIR__')) exit;

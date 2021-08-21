@@ -16,11 +16,16 @@
     <meta name="keywords" content="typecho,php,blog,chenjunlin,chenjunlin.me,小陈的辣鸡屋,小陈,陈俊霖">
     <meta name="description" content="小陈的辣鸡屋chenjunlin.me">
     <link rel="Shortcut Icon" href="https://chenjunlin.me/favicon.ico" type="image/x-icon" />
-    <link rel="stylesheet" href="<?php $this->options->themeUrl('style.css'); ?>">
-    <script charset="utf-8" src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
-   
     <!--百度统计-->
-    <script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RYV15F0XZV" defer="defer"></script>
+    <script defer="defer">
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-RYV15F0XZV');
+        
+        
         var _hmt = _hmt || [];
         (function() {
         var hm = document.createElement("script");
@@ -28,15 +33,8 @@
         var s = document.getElementsByTagName("script")[0]; 
         s.parentNode.insertBefore(hm, s);
         })();
-    </script>
-    
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RYV15F0XZV"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-RYV15F0XZV');
+        
+        
     </script>
 
 </head>

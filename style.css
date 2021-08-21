@@ -571,6 +571,9 @@ pre{
     .post-headermeta *, .post-article p a{
         color: #ccc!important;
     }
+    ::-webkit-scrollbar-thumb{
+        background-color: #ccc!important;
+    }
 }
 
 
@@ -578,8 +581,8 @@ pre{
 
  /*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/
  ::-webkit-scrollbar{
-    width: 6px;
-    height: 6px;
+    width: 10px;
+    height: 10px;
     background-color: #fff;
   }
 
@@ -587,16 +590,16 @@ pre{
   ::-webkit-scrollbar-track {
     -webkit-box-shadow: inset 0 0 3px rgba(0, 0, 0, .3);
             box-shadow: inset 0 0 3px rgba(0, 0, 0, .3);
-    border-radius: 10px;
+    border-radius: 6px;
     background-color: #fff;
   }
 
   /*定义滑块 内阴影+圆角*/
   ::-webkit-scrollbar-thumb{
-    border-radius: 10px;
+    border-radius: 6px;
     -webkit-box-shadow: inset 0 0 3px rgba(0, 0, 0, .1);
             box-shadow: inset 0 0 3px rgba(0, 0, 0, .1);
-    background-color: #c8c8c8;
+    background-color: #4e6ef2;
   }
 
 *, ::after, ::before {

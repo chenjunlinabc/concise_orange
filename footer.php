@@ -13,13 +13,10 @@
 </footer>
     
     
-    <script charset="utf-8" src="https://cdn.jsdelivr.net/npm/jquery-pjax@2.0.1/jquery.pjax.min.js"></script>
-    
-    
-
-
+    <script charset="utf-8" src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" defer="defer"></script>
+    <script charset="utf-8" src="https://cdn.jsdelivr.net/npm/jquery-pjax@2.0.1/jquery.pjax.min.js" defer="defer"></script>
     <!--页面pjax-->
-<script>
+<script defer="defer">
     
     function getBaseUrl() {
 		let ishttps = 'https:' == document.location.protocol ? true : false;
@@ -46,8 +43,8 @@
 	    
 	});
 </script>
-    
-    <script charset="utf-8" src="<?php $this->options->themeUrl('main.js'); ?>"></script>
+    <link rel="stylesheet" href="<?php $this->options->themeUrl('style.css'); ?>" defer="defer">
+    <script charset="utf-8" src="<?php $this->options->themeUrl('main.js'); ?>" defer="defer"></script>
 
 
 </body>
