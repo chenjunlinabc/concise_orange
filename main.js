@@ -93,6 +93,38 @@ $("window").resize(function(){
 
 
 
+/* PJAX*/
+
+
+function getBaseUrl() {
+    let ishttps = 'https:' == document.location.protocol ? true : false;
+    let url = window.location.host;
+    if (ishttps) {
+        url = 'https://' + url;
+    } else {
+        url = 'http://' + url;
+    }
+    return url;
+}
+let url = '"' + getBaseUrl() + '"';
+$(document).pjax('a[href^=' + url + ']:not(a[target="_blank"], a[no-pjax])', {
+    container: '.ajaxdata',
+    fragment: '.ajaxdata',
+    timeout: 8000
+})
+$(document).on('pjax:start', function () { 
+    $(".nav-menu").css("display","none");
+
+});
+
+$(document).on('pjax:end', function () { 
+    
+});
+
+
+
+
+
 
 
 

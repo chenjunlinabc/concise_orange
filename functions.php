@@ -3,7 +3,7 @@
 // 运行天数计算
 date_default_timezone_set('Asia/Shanghai');
 function getBuildTime() {
-	$site_create_time = strtotime('2021-06-02');
+	$site_create_time = strtotime('2021-03-17');
 	$time = time() - $site_create_time;
 	if(is_numeric($time)) {
 		$value = array(

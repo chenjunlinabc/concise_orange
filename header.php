@@ -13,36 +13,22 @@
         ), '', ' - '); ?><?php $this->options->title(); ?>
     </title>
     <meta name="google" content="notranslate"/>
-    <meta name="keywords" content="typecho,php,blog,chenjunlin,chenjunlin.me,小陈的辣鸡屋,小陈,陈俊霖">
-    <meta name="description" content="小陈的辣鸡屋chenjunlin.me">
-    <link rel="Shortcut Icon" href="https://chenjunlin.me/favicon.ico" type="image/x-icon" />
-    <!--百度统计-->
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RYV15F0XZV" defer="defer"></script>
+    <meta name="keywords" content="typecho,php,blog,chenjunlin,cjlio.com,小陈的辣鸡屋,小陈,陈俊霖">
+    <meta name="description" content="小陈的辣鸡屋cjlio.com">
+    <link rel="Shortcut Icon" href="https://cjlio.com/favicon.ico" type="image/x-icon"/>
+    <link rel="stylesheet" href="<?php $this->options->themeUrl('style.css'); ?>" defer="defer">
+
     <script defer="defer">
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-RYV15F0XZV');
-        
-        
         var _hmt = _hmt || [];
         (function() {
-        var hm = document.createElement("script");
-        hm.src = "https://hm.baidu.com/hm.js?626bf8c65e4659fe458caf20874057d9";
-        var s = document.getElementsByTagName("script")[0]; 
-        s.parentNode.insertBefore(hm, s);
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?822471875fc2ff0b35092047fb24c11f";
+            var s = document.getElementsByTagName("script")[0]; 
+            s.parentNode.insertBefore(hm, s);
         })();
-        
-        
     </script>
-
 </head>
 <body class="body" id="body">
-    
-    <div style="display:none; z-index:999; background-color: #ccc; position:fixed; top:0px; width:100%; height:100vh;" class="pjax_main">
-    </div>
-
 <a id="add"></a>
 <header id="header" class="header">
     <div id="nav" class="container">

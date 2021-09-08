@@ -52,6 +52,7 @@ if(!defined('__TYPECHO_ROOT_DIR__')) exit; ?>
                         <li><a href="https://www.m78.co/" target="_blank" rel="noopener noreferrer">星云馆</a></li>
                         <li><a href="https://jsun969.cn" target="_blank" rel="noopener noreferrer">螓首蛾眉</a></li>
                         <li><a href="https://flypig.xyz" target="_blank" rel="noopener noreferrer">阅读・阅己</a></li>
+                        <li><a href="https://blog.beixibaobao.com" target="_blank" rel="noopener noreferrer">北熙宝宝</a></li>
                         <li><a href="https://keymoe.com/" target="_blank" rel="noopener noreferrer">Sanakeyの小站</a></li>
                     </ul>
                     

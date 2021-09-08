@@ -17,12 +17,14 @@
                      </a>
                 </h3>
                 <ul class="nav post-meta">
+                    <li><?php $this->author();?></li>
                     <li class="nav-item"><?php $this->date(); ?></li>
                     <li class="nav-item"><?php $this->category(','); ?></li>
                     <li>
                         <a href="<?php $this->permalink() ?>#comments"><?php $this->commentsNum('暂无评论', '%d 条评论'); ?></a>
                     </li>
                     <li>字数统计：<?php echo art_count($this->cid); ?></li>
+                    <li>标签：<?php $this->tags(',', true, 'none'); ?></li>
                 </ul>
                 <!--输出文章内容-->
                 <div class="post-article">
