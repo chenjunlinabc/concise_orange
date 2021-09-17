@@ -149,4 +149,4 @@ $(document).on('pjax:end', function () {
     
 console.log("%c Typecho   %c https://typecho.org/ ","color: #fff; margin: 1em 0; padding: 5px 0; background: #3498db;","margin: 1em 0; padding: 5px 0; background: #efefef;");
 
-console.log("%c 小陈的辣鸡屋  %c https://chenjunlin.me/ ","color: #fff; margin: 1em 0; padding: 5px 0; background: #3498db;","margin: 1em 0; padding: 5px 0; background: #efefef;");
+console.log("%c 小陈的辣鸡屋  %c https://cjlio.com ","color: #fff; margin: 1em 0; padding: 5px 0; background: #3498db;","margin: 1em 0; padding: 5px 0; background: #efefef;");

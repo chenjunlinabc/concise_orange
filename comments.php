@@ -44,7 +44,7 @@
 
             <div class="comment-reply">
                 <?php $comments->reply(); ?> <!--回复评论-->
-            </span> 
+            </div> 
         </div>
         
         
@@ -124,13 +124,13 @@
             <?php $this->comments()->to($comments); ?>
             <?php if ($comments->have()): ?>
             <h3><?php $this->commentsNum(_t('暂无评论'), _t('仅有一条评论'), _t('已有 %d 条评论')); ?></h3>
+            <div class="cancel-comment-reply">
+                <?php $comments->cancelReply(); ?> <!-- 取消回复 --->
+                <!--评论答复-->
+            </div>
             <?php $comments->listComments(); ?>
-            <?php $comments->pageNav('&laquo; 前一页', '后一页 &raquo;'); ?>
+            <?php $comments->pageNav('上一页', '下一页'); ?>
             <?php endif; ?>
-        </div>
-        <div class="cancel-comment-reply">
-            <?php $comments->cancelReply(); ?> <!-- 取消回复 --->
-            <!--评论答复-->
         </div>
     </div>
 </div>

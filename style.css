@@ -7,7 +7,8 @@ body{
     font-size: 14px;
     font-family: 'PingFangSC-Regular', 'helvetica neue', tahoma, 'PingFang SC', 'microsoft yahei', arial, 'hiragino sans gb', sans-serif;
     color: #444;
-    background-color: #f5f6f7;
+    background-color: #f7f8fa;
+
 }
 ul li,ol{
     list-style-type: none;
@@ -151,7 +152,6 @@ main{
     border-radius: 6px 0 0 6px;
     border: 0;
     padding: 8px 10px;
-    background-color: #f4f6fb;
     display: table-cell;
 }
 .post-nav {
@@ -172,7 +172,7 @@ main{
     border-color: #0d6efd;
 }
 .submit{
-    color: #fff;
+    color: #ebebd3;
     background-color: #4e6ef2;
     padding: 7px 10px;
     cursor: pointer;
@@ -182,7 +182,7 @@ main{
     
 }
 .aside-submit,.menu-submit{
-    color: #fff;
+    color: #ebebd3;
     background-color: #4e6ef2;
     padding: 7px 10px;
     cursor: pointer;
@@ -258,7 +258,7 @@ main{
     background-color: #4e6ef2!important;
 }
 .page-item a,.current a{
-    color: #fff;
+    color: #ebebd3;
 }
 .widget-list{
     display: none;
@@ -266,7 +266,7 @@ main{
     background-color: #fff;
     padding: 6px;
     border-radius: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #ebebd3;
 }
 .category-parent{
     margin-bottom: 3px;
@@ -282,13 +282,16 @@ pre code{
     color: #444;
     font-family: Consolas,Inconsolata,Courier,monospace,pingfang sc,microsoft yahei,sans-serif;
     font-size: .9em;
-    background: #f4f6f8;
+    background: #ccc;
     border-radius: 10px;
     word-break: break-all;
 }
 /* 解决文本溢出容器 */
 pre{ 
     white-space: pre-wrap;
+}
+.post-article{
+    margin-top: 30px;
 }
 .post-article p{
     white-space: pre-wrap;
@@ -300,7 +303,7 @@ pre{
 }
 
 .post-article p a:hover{
-    color: #fff;
+    color: #ebebd3;
 }
 .post-article p a{
     text-decoration: underline!important;
@@ -396,7 +399,7 @@ pre{
     width: 20px;
     height: 20px;
     padding: 10px;
-    background-color: #ccc;
+    background-color: #fff;
     border-radius: 50%;
     position: fixed;
     bottom: 6%;
@@ -467,7 +470,7 @@ pre{
 
 .post-data .links li, .articles-data li{
     padding: 10px;
-    background-color: #ccc;
+    background-color: #e6e7e8;
     border-radius: 8px;
     margin: 6px;
 }
@@ -481,9 +484,7 @@ pre{
 .articles-data{
     margin-top: 30px;
 }
-.page-navigator{
-    margin-top: 100px;
-}
+
 @keyframes avatargo{
     0%{-webkit-transform:rotate(0deg);}
     25%{-webkit-transform:rotate(90deg);}
@@ -494,7 +495,9 @@ pre{
 .avatar:hover{
     animation: avatargo 0.3s linear
 }
-
+.form-nav{
+    background-color: #e6e7e8;
+}
 
 
 
@@ -564,21 +567,21 @@ pre{
 
 @media (prefers-color-scheme: dark) {
     body,.page-navigator li{
-        background-color: #262626;
+        background-color: #252934;
     }
     .post-bottom .pagination .page-item,.page-navigator .current{
         background-color: #4e6ef2!important;
     }
     .post, .post-mains, .aside, .header, .pagination span{
         background-color: #434343!important;
-        color: #fff!important;
+        color: #ccc!important;
     }
     a, a:hover, a:link, a:visited, a:active{
-        color: #fff;
+        color: #ccc;
     }
     .form-control, .aside-control, code, .textarea, .widget-list, .comments-main, .articles-data li, .post-data .links li{
-        background-color: #262626!important;
-        color: #fff!important;
+        background-color: #272822!important;
+        color: #ccc!important;
     }
     .post-headermeta *, .post-article p a{
         color: #ccc!important;
@@ -618,4 +621,3 @@ pre{
     -webkit-box-sizing: content-box;
             box-sizing: content-box;
 }
-

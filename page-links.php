@@ -54,6 +54,8 @@ if(!defined('__TYPECHO_ROOT_DIR__')) exit; ?>
                         <li><a href="https://flypig.xyz" target="_blank" rel="noopener noreferrer">阅读・阅己</a></li>
                         <li><a href="https://blog.beixibaobao.com" target="_blank" rel="noopener noreferrer">北熙宝宝</a></li>
                         <li><a href="https://keymoe.com/" target="_blank" rel="noopener noreferrer">Sanakeyの小站</a></li>
+                        <li><a href="https://innei.ren/" target="_blank" rel="noopener noreferrer">静かな森</a></li>
+                        <li><a href="https://barry-flynn.github.io/" target="_blank" rel="noopener noreferrer">百里飞洋の博客</a></li>
                     </ul>
                     
                 </div>
