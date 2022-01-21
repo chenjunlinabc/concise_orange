@@ -2,7 +2,7 @@
     <div class="footer-main container">
         &copy; <?php echo date('Y'); ?> <a href="<?php $this->options->siteUrl(); ?>"><?php $this->options->title(); ?></a>.
         Powered by <?php _e('<a href="https://typecho.org">Typecho</a> '); ?>
-        
+        主题:<?php _e('<a href="https://github.com/chenjunlinabc/concise_orange">concise_orange</a> '); ?>
        <div>
             <?php _e("加载耗时") ?>
             <span><?php echo timer_stop();?></span>
