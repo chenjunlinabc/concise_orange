@@ -38,7 +38,7 @@ if(!defined('__TYPECHO_ROOT_DIR__')) exit; ?>
                     <ul class="links">
                         <li><a href="https://paugram.com/" target="_blank" rel="noopener noreferrer">保罗的小宇宙</a></li>
                         <li><a href="https://linxuan.fun" target="_blank" rel="noopener noreferrer">临轩</a></li>
-                        <li><a href="https://yujienb.cn/" target="_blank" rel="noopener noreferrer">狱杰的博客</a></li>
+                        <li><a href="https://yujienb.cn/" target="_blank" rel="noopener noreferrer">狱杰的屋敷</a></li>
                         <li><a href="https://www.kiwiape.cn/" target="_blank" rel="noopener noreferrer">猕猴の那年记忆</a></li>
                         <li><a href="https://ghser.com" target="_blank" rel="noopener noreferrer">一叶三秋</a></li>
                         <li><a href="https://www.acg19.top" target="_blank"rel="noopener noreferrer">新漫猫</a></li>
@@ -56,6 +56,7 @@ if(!defined('__TYPECHO_ROOT_DIR__')) exit; ?>
                         <li><a href="https://keymoe.com/" target="_blank" rel="noopener noreferrer">Sanakeyの小站</a></li>
                         <li><a href="https://innei.ren/" target="_blank" rel="noopener noreferrer">静かな森</a></li>
                         <li><a href="https://blog.meta-code.top/" target="_blank" rel="noopener noreferrer">百里飞洋の博客</a></li>
+                        <li><a href="https://dyfa.top" target="_blank" rel="noopener noreferrer">itsNekoDeng</a></li>
                     </ul>
                     
                 </div>

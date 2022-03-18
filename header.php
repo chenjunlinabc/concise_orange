@@ -17,7 +17,8 @@
     <meta name="description" content="小陈的辣鸡屋cjlio.com">
     <link rel="Shortcut Icon" href="https://cjlio.com/favicon.ico" type="image/x-icon"/>
     <link rel="stylesheet" href="<?php $this->options->themeUrl('style.css'); ?>" defer="defer">
-
+    <script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
+    <script>LA.init({id: "JajYOqWaj5DKrHec",ck: "JajYOqWaj5DKrHec"})</script>
     <script defer="defer">
         var _hmt = _hmt || [];
         (function() {
@@ -26,6 +27,15 @@
             var s = document.getElementsByTagName("script")[0]; 
             s.parentNode.insertBefore(hm, s);
         })();
+    </script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-33ESG2HRFL"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'G-33ESG2HRFL');
     </script>
 </head>
 <body class="body" id="body">

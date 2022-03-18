@@ -81,6 +81,7 @@
                 <!-- 显示当前登录用户的用户名以及登出连接 -->
                 <p><?php _e('登录身份: '); ?><a href="<?php $this->options->profileUrl(); ?>"><?php $this->user->screenName(); ?></a>. <a href="<?php $this->options->logoutUrl(); ?>" title="Logout"><?php _e('退出'); ?></a></p>
                 <!-- 提交要回复的内容 -->
+               
                  <div class="form-submit-main">
                     <button type="submit" class="submit form-submit"><?php _e('提交评论'); ?></button>
                 </div>
@@ -104,6 +105,7 @@
                         <input type="url" name="url" id="url" class="text" placeholder="<?php _e('网站'); ?>" value="<?php $this->remember('url'); ?>"<?php if ($this->options->commentsRequireURL): ?> required<?php endif; ?> />
                     </span>
                 </div>
+                
                 <div class="form-submit-main">
                     <button type="submit" class="submit form-submit"><?php _e('提交评论'); ?></button>
                 </div>

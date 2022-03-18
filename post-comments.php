@@ -75,6 +75,7 @@
                 <!-- 若当前用户已经登录 -->
                 <span>
                     <textarea rows="3" name="text" id="textarea" class="textarea" placeholder="<?php _e('内容'); ?>" required ><?php $this->remember('text'); ?></textarea>
+                    
                     <button type="submit" class="submit form-submit"><?php _e('提交评论'); ?></button>
                 </span>
                 <?php $security = $this->widget('Widget_Security'); ?>
