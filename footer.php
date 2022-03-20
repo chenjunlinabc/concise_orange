@@ -12,8 +12,8 @@
        </div>
     </div>
 </footer>
-    <script charset="utf-8" src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" defer="defer"></script>
-    <script charset="utf-8" src="https://cdn.jsdelivr.net/npm/jquery-pjax@2.0.1/jquery.pjax.min.js" defer="defer"></script>
+    <script charset="utf-8" src="<?php $this->options->themeUrl('jquery.min.js'); ?>" defer="defer"></script>
+    <script charset="utf-8" src="<?php $this->options->themeUrl('jquery.pjax.min.js'); ?>" defer="defer"></script>
     <script charset="utf-8" src="<?php $this->options->themeUrl('main.js'); ?>" defer="defer"></script>
 
 </body>

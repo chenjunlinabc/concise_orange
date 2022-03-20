@@ -13,9 +13,13 @@
         ), '', ' - '); ?><?php $this->options->title(); ?>
     </title>
     <meta name="google" content="notranslate"/>
+    <meta http-equiv="x-dns-prefetch-control" content="on"/> 
     <meta name="keywords" content="typecho,php,blog,chenjunlin,cjlio.com,小陈的辣鸡屋,小陈,陈俊霖">
     <meta name="description" content="小陈的辣鸡屋cjlio.com">
     <link rel="Shortcut Icon" href="https://cjlio.com/favicon.ico" type="image/x-icon"/>
+    <link rel="preload" as="script" href="<?php $this->options->themeUrl('jquery.min.js'); ?>"/>
+    <link rel="preload" as="script" href="<?php $this->options->themeUrl('jquery.pjax.min.js'); ?>"/>
+    <link rel="preload" as="script" href="<?php $this->options->themeUrl('main.js'); ?>"/>
     <link rel="stylesheet" href="<?php $this->options->themeUrl('style.css'); ?>" defer="defer">
     <script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
     <script>LA.init({id: "JajYOqWaj5DKrHec",ck: "JajYOqWaj5DKrHec"})</script>
