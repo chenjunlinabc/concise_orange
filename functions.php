@@ -20,10 +20,6 @@ function getBuildTime() {
 	}
 }
 
-// avatar换源
-
-define("__TYPECHO_GRAVATAR_PREFIX__", "https://sdn.geekzu.org/avatar/");
-
 
 
 function  art_count ($cid){
