@@ -21,6 +21,7 @@ function getBuildTime() {
 }
 
 
+/** 单文章字数 **/
 
 function  art_count ($cid){
     $db=Typecho_Db::get ();
@@ -36,42 +37,23 @@ function  art_count ($cid){
     /**
      * 全站字数
      */
-    function allOfCharacters() {
+    function AllarticlesNum() {
         $chars = 0;
         $db = Typecho_Db::get();
         $select = $db ->select('text')->from('table.contents');
         $rows = $db->fetchAll($select);
         foreach ($rows as $row) { $chars += mb_strlen(trim($row['text']), 'UTF-8'); }
-        $unit = '';
-        if($chars >= 10000)     { $chars /= 10000; $unit = '万'; } 
-        else if($chars >= 1000) { $chars /= 1000;  $unit = '千'; }
-        $out = sprintf('%.2lf %s',$chars, $unit);
-        return $out;
+        return $chars;
     } 
-/**
     
-    /**
-     * 加载耗时
-     */
-    function timer_start() {
-        global $timestart;
-        $mtime = explode( ' ', microtime()  );
-        $timestart = $mtime[1] + $mtime[0];
-        return true; 
+    function articleNum($archive) {
+        return mb_strlen($archive->text,'UTF-8');
     }
-    timer_start();
-    function timer_stop( $display = 0, $precision = 3  ) {
-        global $timestart, $timeend;
-        $mtime = explode( ' ', microtime()  );
-        $timeend = $mtime[1] + $mtime[0];
-        $timetotal = number_format( $timeend - $timestart, $precision  );
-        $r = $timetotal < 1 ? $timetotal * 1000 . " ms" : $timetotal . " s";
-        if ( $display  ) {
-            echo $r;
-        }
-        return $r;
-    }
+  
     
+  
+  
+  
 
 function getHotComments($limit = 10){
     $db = Typecho_Db::get();

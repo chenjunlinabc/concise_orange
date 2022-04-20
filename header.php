@@ -41,6 +41,16 @@
     
       gtag('config', 'G-33ESG2HRFL');
     </script>
+    
+    
+    <script src="https://sdk.51.la/perf/js-sdk-perf.min.js" crossorigin="anonymous"></script>
+    <script>
+      new LingQue.Monitor().init({id:"JeLbd9BISLHyMcyW",sendSpaPv:true});
+    </script>
+    
+    
+    
+    
 </head>
 <body class="body" id="body">
 <a id="add"></a>

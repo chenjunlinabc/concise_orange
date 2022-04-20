@@ -17,6 +17,9 @@
             <li>
                 运行天数：<?php getBuildTime(); ?>
             </li>
+            <li>
+                全站字数：<?php echo AllarticlesNum(); ?>字
+            </li>
         </ul>
     </section>
     <section class="sidebar-main">

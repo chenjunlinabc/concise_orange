@@ -23,7 +23,7 @@
                     <li>
                         <a href="<?php $this->permalink() ?>#comments"><?php $this->commentsNum('暂无评论', '%d 条评论'); ?></a>
                     </li>
-                    <li>字数统计：<?php echo art_count($this->cid); ?></li>
+                    <li>字数统计：<?php echo art_count($this->cid); ?></li>字
                     <li>标签：<?php $this->tags('，', true, 'none'); ?></li>
                 </ul>
                 <!--输出文章内容-->
