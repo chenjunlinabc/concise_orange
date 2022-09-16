@@ -7,7 +7,7 @@ body{
     font-size: 16px;
     font-family: 'PingFangSC-Regular', 'helvetica neue', tahoma, 'PingFang SC', 'microsoft yahei', arial, 'hiragino sans gb', sans-serif;
     color: #333333;
-    background-color: #f7f8fa;
+    background-color: #f6f6f8;
 
 }
 ul li,ol{
@@ -126,10 +126,6 @@ main{
     padding: 20px;
     border-radius: 10px;
     background-color: #fff;
-}
-.post,.post-mains,.aside,.header{
-    -webkit-box-shadow: 0 15px 35px rgba(50, 50, 93, .05), 0 5px 15px rgba(0, 0, 0, .03);
-            box-shadow: 0 15px 35px rgba(50, 50, 93, .05), 0 5px 15px rgba(0, 0, 0, .03);
 }
 #aside{
     margin-left: 72%;
