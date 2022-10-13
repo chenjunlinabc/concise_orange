@@ -5,7 +5,7 @@
 #### 介绍
 一个typecho主题，简约风格
 
-demo cjlio.com
+演示： [cjlio.com](https://cjlio.com)
 
 克隆到本地，上传concise_orange文件夹到/usr/themes下
 
