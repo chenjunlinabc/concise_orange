@@ -7,7 +7,7 @@
 
 演示： [cjlio.com](https://cjlio.com)
 
-克隆到本地，上传concise_orange文件夹到/usr/themes下
+下载本项目到服务器解压，上传concise_orange文件夹到/usr/themes下
 
 侧边栏的友情链接，links页面请自行修改
 
