@@ -21,36 +21,19 @@
     <link rel="preload" as="script" href="<?php $this->options->themeUrl('jquery.pjax.min.js'); ?>"/>
     <link rel="preload" as="script" href="<?php $this->options->themeUrl('main.js'); ?>"/>
     <link rel="stylesheet" href="<?php $this->options->themeUrl('style.css'); ?>" defer="defer">
-    <script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
-    <script>LA.init({id: "JajYOqWaj5DKrHec",ck: "JajYOqWaj5DKrHec"})</script>
-    <script defer="defer">
+    <script>
         var _hmt = _hmt || [];
         (function() {
-            var hm = document.createElement("script");
-            hm.src = "https://hm.baidu.com/hm.js?822471875fc2ff0b35092047fb24c11f";
-            var s = document.getElementsByTagName("script")[0]; 
-            s.parentNode.insertBefore(hm, s);
+          var hm = document.createElement("script");
+          hm.src = "https://hm.baidu.com/hm.js?822471875fc2ff0b35092047fb24c11f";
+          var s = document.getElementsByTagName("script")[0]; 
+          s.parentNode.insertBefore(hm, s);
         })();
     </script>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-33ESG2HRFL"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
     
-      gtag('config', 'G-33ESG2HRFL');
-    </script>
-    
-    
-    <script src="https://sdk.51.la/perf/js-sdk-perf.min.js" crossorigin="anonymous"></script>
-    <script>
-      new LingQue.Monitor().init({id:"JeLbd9BISLHyMcyW",sendSpaPv:true});
-    </script>
-    
-    
-    
-    
+    <script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
+    <script>LA.init({id: "JajYOqWaj5DKrHec",ck: "JajYOqWaj5DKrHec"})</script>
+
 </head>
 <body class="body" id="body">
 <a id="add"></a>

@@ -42,7 +42,7 @@
             <li><a href="https://www.kiwiape.cn/" target="_blank" rel="noopener noreferrer">猕猴の那年记忆</a></li>
             <li><a href="https://ghser.com" target="_blank" rel="noopener noreferrer">一叶三秋</a></li>
             <li><a href="https://www.acg19.top" target="_blank" rel="noopener noreferrer">新漫猫</a></li>
-            <li><a href="https://www.timochan.cn" target="_blank" rel="noopener noreferrer">提莫酱的博客</a></li>
+            <li><a href="https://www.timochan.cn" target="_blank" rel="noopener noreferrer">TimochanのBlog</a></li>
             <li><a href="https://zshmvp.com" target="_blank" rel="noopener noreferrer">zshMVP</a></li>
             <li><a href="https://www.abcio.cn/" target="_blank" rel="noopener noreferrer">清墨的橘</a></li>
             <li><a href="https://www.lx-blog.cn" target="_blank" rel="noopener noreferrer">流星Aday的博客</a></li>
@@ -57,7 +57,8 @@
             <li><a href="https://innei.ren/" target="_blank" rel="noopener noreferrer">静かな森</a></li>
             <li><a href="https://blog.meta-code.top/" target="_blank" rel="noopener noreferrer">百里飞洋の博客</a></li>
             <li><a href="https://dyfa.top" target="_blank" rel="noopener noreferrer">itsNekoDeng</a></li>
-            
+             <li><a href="https://www.miaoer.xyz/" target="_blank" rel="noopener noreferrer">喵二の小博客</a></li>
+
         </ul>
     </section>
     <section class="sidebar-main">

@@ -8,7 +8,5 @@
     <script charset="utf-8" src="<?php $this->options->themeUrl('jquery.min.js'); ?>" defer="defer"></script>
     <script charset="utf-8" src="<?php $this->options->themeUrl('jquery.pjax.min.js'); ?>" defer="defer"></script>
     <script charset="utf-8" src="<?php $this->options->themeUrl('main.js'); ?>" defer="defer"></script>
-    <script src="https://ssl.captcha.qq.com/TCaptcha.js"></script>
-
 </body>
 </html>
