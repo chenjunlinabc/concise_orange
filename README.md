@@ -5,7 +5,7 @@
 #### 介绍
 一个typecho主题，简约风格
 
-演示： [cjlio.com](https://cjlio.com)
+2023，4，10 不再维护
 
 下载本项目到服务器解压，上传concise_orange文件夹到/usr/themes下
 
