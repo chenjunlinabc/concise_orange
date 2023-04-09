@@ -58,7 +58,7 @@ if(!defined('__TYPECHO_ROOT_DIR__')) exit; ?>
                         <li><a href="https://blog.meta-code.top/" target="_blank" rel="noopener noreferrer">百里飞洋の博客</a></li>
                         <li><a href="https://dyfa.top" target="_blank" rel="noopener noreferrer">itsNekoDeng</a></li>
                         <li><a href="https://www.miaoer.xyz/" target="_blank" rel="noopener noreferrer">喵二の小博客</a></li>
-
+                        <li><a href="https://intelyes.club/" target="_blank" rel="noopener noreferrer">日语笔记</a></li>
                     </ul>
                     
                 </div>

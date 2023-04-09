@@ -27,13 +27,7 @@
         <div class="comment-author">
             <!--评论头像-->
             <?php
-            if(preg_match('/\d{4,13}(@qq.com)/', strtolower($comments -> mail))){
-                preg_match('/\d+/', strtolower($comments -> mail), $mail_check);
-                echo '<img class="avatar" src="https://q1.qlogo.cn/g?b=qq&nk=' . $mail_check[0] . '&s=100" alt="这本来是一个头像，当你在页面看到这个说明该头像炸了"/>';
-            }
-            else{
                 $comments -> gravatar('32');
-            }
             ?>
         </div>
         <div class="comment-meta">
@@ -46,8 +40,6 @@
                 <?php $comments->reply(); ?> <!--回复评论-->
             </div> 
         </div>
-        
-        
     </div>
     <div class="comments-main">
         <?php $comments->content(); ?> <!--评论内容-->
@@ -62,7 +54,6 @@
     </div>
 </li>
 <?php } ?>
-
 <div class="post-mains">
     <div class="form-comments">
         <!--评论表单-->
@@ -85,8 +76,6 @@
                  <div class="form-submit-main">
                     <button type="submit" class="submit form-submit"><?php _e('提交评论'); ?></button>
                 </div>
-                
-
                  <!-- 若当前用户没有登录 -->
                  <?php else: ?>
                 <!-- 要求输入名字、邮箱、网址 -->
@@ -109,15 +98,9 @@
                 <div class="form-submit-main">
                     <button type="submit" class="submit form-submit"><?php _e('提交评论'); ?></button>
                 </div>
-           
             <?php endif; ?>
             </form>
         </div>
-        
-       
-        
-        
-
         <!-- 若当前文章不允许进行评论 -->
         <?php else: ?>
         <div>
@@ -140,4 +123,3 @@
         </div>
     </div>
 </div>
-    
